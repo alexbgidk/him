@@ -3530,7 +3530,7 @@ end)
 
 game:GetService("UserInputService").InputBegan:Connect(function(input,gameProcessedEvent)
 	if gameProcessedEvent then return end
-	if input.KeyCode == Enum.KeyCode.B then
+	if input.KeyCode == Enum.KeyCode.P then
 		Background.Visible = not Background.Visible
 	end
 end)
